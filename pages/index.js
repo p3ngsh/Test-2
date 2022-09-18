@@ -11,6 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
+        <h1>This is a heading </h1> 
         <Header title="Hello" />
         <p className="description">
           sit back and enjoy ;) 
