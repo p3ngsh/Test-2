@@ -3,7 +3,40 @@
     "baseUrl": "./",
     "paths": {
       "@components/*": ["components/*"],
-      "@styles/*": ["styles/*"]
+      "@styles/*": ["styles/*"],
+    },
+    "headerLinks": [
+        {
+          "menuLabel": "home",
+          "menuLink": "/index",
+          "category": null
+         },
+        
+        {
+          "menuLabel": "About",
+          "menuLink": "/about",
+          "category": [
+            {
+              "categoryLabel": "Team",
+              "submenu": [
+                {
+                  "menuLabel": "Team",
+                  "menuLink": "/about"
+                },
+                {
+                  "menuLabel": "Vision",
+                  "menuLink": "/about"
+                },
+                {
+                  "menuLabel": "Pricing",
+                  "menuLink": "/about"
+                },
+              ]
+            }
+          ]
+        },
+      ]
+      }
     }
-  }
-}
+
+  
